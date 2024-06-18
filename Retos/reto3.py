@@ -22,7 +22,7 @@ elif 151 <= max_ica <= 200:
     clasificacionMAX= "Dañina para la salud"
 elif 201 <= max_ica <= 300: 
     clasificacionMAX= "muy dañina para la salud"
-else
+else:
     clasificacionMAX= "peligrosa"
 
 print(f"la ciudad con el ICA mas bajo es {ciudad_minICA} con un ica ")
